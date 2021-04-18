@@ -12,6 +12,8 @@
         <title>Ta Start</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>My TA Labs</h1>
+        <h2>Kolomiiets Danylo</h2>
+        <p><a href="lab1.jsp">Lab1 </p>
     </body>
 </html>
