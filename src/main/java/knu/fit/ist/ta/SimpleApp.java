@@ -5,14 +5,15 @@
  */
 package knu.fit.ist.ta;
 
+
 /**
  *
  * @author Danya
  */
 public class SimpleApp {
 
-    /*public static void main(String[] args) {
-    MyFirstJavaClass mFJS = new MyFirstJavaClass(5);
+    public static void main(String[] args) {
+    /* MyFirstJavaClass mFJS = new MyFirstJavaClass(5);
     
     System.out.println(mFJS.toString());
     
@@ -20,5 +21,12 @@ public class SimpleApp {
     
     System.out.println(MyFirstJavaClass.toStringStatic());
     }*/
+    
+    float f1 = 2f;
+    
+    System.out.println(f1*10);
+             
+    System.out.println(Math.round(f1*100)/100);
+    }
 
 }
