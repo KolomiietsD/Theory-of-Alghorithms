@@ -12,7 +12,7 @@ package knu.fit.ist.ta.lab2;
 public class Calculate {
     public static float lab2equation(float x){
       
-        return (float) Math.log(x);
+        return (float) (Math.log(5*x))/((-4*x*x) + (1*x) + 10);
     }
     
 }
