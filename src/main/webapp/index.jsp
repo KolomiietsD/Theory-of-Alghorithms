@@ -13,7 +13,28 @@
     </head>
     <body>
         <h1>My TA Labs IoT-11</h1>
-        <h2>Kolomiiets Danylo</h2>
-        <p><a href="lab1.jsp">Lab1 </p>
+        <h2 style="color:#ff0000">Kolomiiets Danylo</h2>
+
+          <br></br>
+        <div>
+            <form action="lab1.jsp">
+                <input type="submit" value="Lab1">
+            </form>
+        </div>
+        
+        <br></br>
+        <div>
+            <form action="lab2form.jsp">
+                <input type="submit" value="Lab2">
+            </form>
+        </div>
+        
+                <br></br>
+        <div>
+            <form action="lab3form.jsp">
+                <input type="submit" value="Lab3">
+            </form>
+        </div>
+
     </body>
 </html>
