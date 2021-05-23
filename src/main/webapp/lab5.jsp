@@ -39,6 +39,8 @@
                 <% part2.SortByLongField();%>
                 <p><b>Сортування long field: </b><br/> <%= part2.DisplayList()%></p>
                 <p><b>Порядковий номер елементу зі значенням </b><%= find %>: <%= part2.IndexOf(find)%></p>
+                
+        
         
     </body>
 </html>
