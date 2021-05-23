@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -40,6 +41,13 @@
         <div>
             <form action="lab4.jsp">
                 <input type="submit" value="Lab4">
+            </form>
+        </div>
+        
+        <br></br> 
+        <div>
+            <form action="lab5.jsp">
+                <input type="submit" value="Lab5">
             </form>
         </div>
 
