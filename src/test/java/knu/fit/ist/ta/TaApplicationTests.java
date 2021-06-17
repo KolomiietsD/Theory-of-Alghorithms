@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-
+import knu.fit.ist.ta.exam.calculate;
+import knu.fit.ist.ta.exam.FormulaXY;
 @SpringBootTest
 class TaApplicationTests {
 
@@ -25,6 +25,14 @@ class TaApplicationTests {
         //assertEquals(0.05f, Calculate.lab2equation(2));             
     
     }
+
+        @Test
+    void testFormula()
+    {
+        assertEquals(1, calculate.Calculate(0));
+    }
+    
+
 
 
 }

@@ -16,6 +16,13 @@
         <h1>My TA Labs IoT-11</h1>
         <h2 style="color:#ff0000">Kolomiiets Danylo</h2>
 
+        
+                         <br></br>
+                       <div>
+            <form action="exam.jsp">
+                <input type="submit" value="exam">
+            </form>
+                       </div>
           <br></br>
         <div>
             <form action="lab1.jsp">
@@ -70,5 +77,7 @@
                 <input type="submit" value="Lab8">
             </form>
         </div>
+                
+
     </body>
 </html>
